@@ -43,6 +43,7 @@ int main() {
             for(int j = 0; j < a.size(); j++) {
                 sum += a[j];
             }
+            
             cout << sum << "\n";
             sum = 0, odd = 0;
             a.clear();
